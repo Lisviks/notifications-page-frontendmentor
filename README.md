@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL]()
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/notifications-page-cE_hSJNEY_)
 - Live Site URL: [URL](https://lisviks.github.io/notifications-page-frontendmentor/)
 
 ## My process
