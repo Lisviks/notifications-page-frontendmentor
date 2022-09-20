@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 450px;
+  width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header {
+  margin-top: 24px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1c202b;
+  display: flex;
+  align-items: center;
+}
+
+header h1 .notification-number {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding: 1px 11px 4px;
+  background-color: #0a327b;
+  border-radius: 6px;
+  margin-left: 9px;
+}
+
+header .btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e6778;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+main {
+  margin: 24px 0 29px;
+}
+
+.notification-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px;
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.notification-wrapper.new {
+  background-color: #f7fafd;
+}
+
+.notification-wrapper .photo {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.notification-wrapper .content {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e6778;
+  margin-left: 52px;
+}
+
+.notification-wrapper .content .name {
+  font-weight: 800;
+  color: #1c202b;
+}
+
+.notification-wrapper .content .link {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.notification-wrapper .content .link.post {
+  color: #5e6778;
+}
+
+.notification-wrapper .content .link.group {
+  color: #0a327b;
+}
+
+.notification-wrapper .content .new-icon {
+  display: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f65552;
+  margin-left: 6px;
+}
+
+.notification-wrapper.new .content .new-icon {
+  display: inline-block;
+}
+
+.notification-wrapper .content .time {
+  color: #939cad;
+  margin-top: 3px;
+}
+
+.notification-wrapper .content .private-message {
+  border: 1px solid #dde7ee;
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 12px;
+}
+
+.notification-wrapper .image {
+  min-width: 39px;
+  width: 39px;
+  margin-left: 27px;
+}
