@@ -142,3 +142,60 @@ main {
   width: 39px;
   margin-left: 27px;
 }
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 850px;
+    width: 730px;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  header .btn {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  main {
+    margin-top: 31px;
+  }
+
+  .notification-wrapper {
+    padding: 18px;
+    justify-content: space-between;
+  }
+
+  .notification-wrapper .photo {
+    width: 45px;
+    top: 18px;
+    left: 20px;
+  }
+
+  .notification-wrapper .content {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 66px;
+  }
+
+  .btn:hover,
+  .name:hover,
+  .link:hover,
+  .image:hover,
+  .private-message:hover {
+    cursor: pointer;
+  }
+
+  .btn:hover,
+  .name:hover,
+  .link:hover {
+    color: #0a327b !important;
+  }
+
+  .private-message:hover {
+    background-color: #dde7ee;
+  }
+}
